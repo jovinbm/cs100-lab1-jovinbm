@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Harvard Art Museums Galleries</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Harvard Art Museums</h1>
+    <div id="all-galleries">
+        <h2>Galleries</h2>
+        <ul id="galleries">
+        </ul>
+    </div>
+    <div id="all-objects" style="display:none">
+        <ul>
+            <li><button type="button" onclick="window.history.back()">Go Back</button></li>
+        </ul>
+        <h2>Objects</h2>
+        <ul id="objects">
+        </ul>
+    </div>
+    <div id="one-object" style="display:none">
+        <ul>
+            <li><button type="button" onclick="window.history.back()">Go Back</button></li>
+        </ul>
+        <h2>Object</h2>
+        <div id="object">
+        </div>
+    </div>
+</body>
+
+</html>
